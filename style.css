@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #35c97b;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*Cookie notif*/
+#boo{
+    display: none;
+}
+#boo:checked+div{
+    display: none;
+}
+#cookie{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    text-align: center;
+    font-size: 0.8em;
+    color: #252525;
+}
+label:hover{
+    cursor: pointer;
+}
+
+#top{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+}
+#top>p{
+    margin: 1em 0 0.7em 0;
+}
+
+#main{
+    margin-top: 5vh;
+}
+#main>h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.error{
+    color: #ff3939;
+}
+
+form{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+form>input, form>button{
+    border: 1px solid #aaa;
+    padding: 0.5em 0.8em;
+}
+input{
+    width: calc(100% - 1.6em);
+    border-radius: 0.2em 0 0 0.2em;
+    font-size: 1em;
+}
+button{
+    width: 100%;
+    border-radius: 0 0.2em 0.2em 0;
+    background-color: #eee;
+    font-size: 0.85em;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+
+@media (max-width: 1000px){
+    body, #cookie{
+        width: 70%;
+    }
+    form{
+        width: 90%;
+    }
+}
+@media (max-width: 600px){
+    body, #cookie{
+        width: 100%;
+    }
+}
