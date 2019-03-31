@@ -1,4 +1,4 @@
 tempStorage/
 conn.php
-.*
-!.gitignore
+.well-known/
+
