@@ -1,2 +1,4 @@
 tempStorage/
 conn.php
+.*
+!.gitignore
