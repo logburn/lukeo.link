@@ -10,7 +10,8 @@
     return ($return!=NULL)?false:true;
   }
   
-  function randID($length = 6) {
+  function randID($length = 4) {
+    //Note that $length must be even, or it will round down
     do{
       if(function_exists("random_bytes")){
         $bytes = random_bytes(ceil($length/2));
@@ -20,7 +21,7 @@
         throw new Exception("No cryptographically secure random function available.");
       }
       $x = substr(bin2hex($bytes), 0, $length);
-      $id = gmp_strval(gmp_init($x, 36), 62);
+      $id = strtolower(gmp_strval(gmp_init($x, 36), 62));
     } while(!verifyID($id));
     return $id;
   }
