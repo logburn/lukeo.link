@@ -32,6 +32,14 @@
         }
         ?>
     </div>
+
+    <div class=fileUpload>
+      <form action="" method=POST>
+        <input type=file name=fileUpload[] multiple>
+        <button type=submit>
+      </form>
+    </div>
+
     <input type=checkbox id=boo>
     <div id=cookie><p><label for=boo>This site does <b>not</b> use cookies. You're welcome.</label></p></div>
   </body>
