@@ -13,7 +13,7 @@
     <div id=main>
       <h2 class=center>URL SHORTENER</h2>
       <form method=POST action=function.php>
-        <input type=text name=url></input>
+        <input type=text name=url autofocus></input>
         <button type=submit>SHORTEN</button>
       </form>
       <?php
@@ -32,14 +32,14 @@
         }
         ?>
     </div>
-
+<!--
     <div class=fileUpload>
       <form action="" method=POST>
         <input type=file name=fileUpload[] multiple>
         <button type=submit>
       </form>
     </div>
-
+-->
     <input type=checkbox id=boo>
     <div id=cookie><p><label for=boo>This site does <b>not</b> use cookies. You're welcome.</label></p></div>
   </body>
