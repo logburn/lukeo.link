@@ -41,6 +41,6 @@
     </div>
 -->
     <input type=checkbox id=boo>
-    <div id=cookie><p><label for=boo>This site does <b>not</b> use cookies. You're welcome.</label></p></div>
+    <div id=cookie><p><label for=boo>This site stores security cookies that do not identify or track you</label></p></div>
   </body>
 </html>
