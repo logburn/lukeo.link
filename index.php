@@ -6,7 +6,7 @@
     <meta name=viewport content=width=device-width,initial-scale=1>
     <link rel=stylesheet href=style.css type=text/css>
   </head>
-  <body>
+  <body><div id=body>
     <div id=top class=center>
       <p>Looking for <a href=https://lukeogburn.com/>lukeogburn.com</a>?</p>
     </div>
@@ -40,7 +40,7 @@
       </form>
     </div>
 -->
-    <input type=checkbox id=boo>
-    <div id=cookie><p><label for=boo>This site stores security cookies that do not identify or track you</label></p></div>
-  </body>
+    <!--<input type=checkbox id=boo>
+    <div id=cookie><p><label for=boo>This site stores security cookies that do not identify or track you</label></p></div>-->
+  </div></body>
 </html>

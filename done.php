@@ -6,7 +6,7 @@
     <meta name=viewport content=width=device-width,initial-scale=1>
   <link rel=stylesheet href=style.css type=text/css>
   </head>
-  <body>
+  <body><div id=body>
     <div id=top class=center>
       <p>Check out <a href=https://lukeogburn.com/>my main site</a>!</p>
     </div>
@@ -16,5 +16,5 @@
       <br>
       <p class=center><a href=/>Want to make another?</a></p>
     </div>
-  </body>
+  </div></body>
 </html>

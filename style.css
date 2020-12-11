@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+}
+#div{
     width: 60%;
     margin: 0 auto;
 }
@@ -16,7 +18,7 @@ a:hover{
 }
 
 /*Cookie notif*/
-#boo{
+/*#boo{
     display: none;
 }
 #boo:checked+div{
@@ -32,7 +34,7 @@ a:hover{
 }
 label:hover{
     cursor: pointer;
-}
+}*/
 
 #top{
     display: block;
